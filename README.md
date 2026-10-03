@@ -1,8 +1,8 @@
-Projectile Range Prediction Using Machine Learning
+# Projectile Range Prediction Using Machine Learning
 
 A machine learning study of projectile range prediction from initial velocity and launch angle using synthetic data generated from the analytical equations of ideal projectile motion.
 
-Overview
+# Overview
 
 This project explores how different regression algorithms learn the relationship between two physical input variables—initial velocity and launch angle—and projectile range.
 
@@ -10,7 +10,7 @@ Rather than manually specifying a prediction dataset, synthetic observations wer
 
 The project serves as an introduction to applying machine learning within a physics-based problem while maintaining a reproducible scientific workflow.
 
-Physical Model
+# Physical Model
 
 For ideal projectile motion with equal launch and landing heights and negligible air resistance, the horizontal range is
 
@@ -31,7 +31,7 @@ The machine learning models are therefore trained to approximate the mapping:
 (v_0,\theta) \rightarrow R
 ]
 
-Dataset
+# Dataset
 
 The dataset was generated computationally using randomly sampled:
 
@@ -41,7 +41,7 @@ The dataset was generated computationally using randomly sampled:
 
 A fixed random seed was used to make the experiment reproducible.
 
-Machine Learning Models
+# Machine Learning Models
 
 Five regression approaches were evaluated:
 
@@ -53,7 +53,7 @@ Five regression approaches were evaluated:
 
 The models were trained using an 80/20 training-test split.
 
-Evaluation
+# Evaluation
 
 Model performance was evaluated using:
 
@@ -64,7 +64,7 @@ Model performance was evaluated using:
 
 Lower MAE, MSE and RMSE indicate smaller prediction errors, while an (R^2) closer to 1 indicates that the model explains a larger proportion of the variance in the test data.
 
-Limitations
+# Limitations
 
 This experiment uses idealized synthetic data. It does not account for:
 
@@ -76,7 +76,7 @@ This experiment uses idealized synthetic data. It does not account for:
 
 Consequently, the results should not be interpreted as evidence of real-world predictive performance.
 
-Future Work
+# Future Work
 
 Possible extensions include:
 
@@ -87,10 +87,10 @@ Possible extensions include:
 * Comparing ML predictions with numerical and analytical solutions
 * Extending the framework to more complex physical systems
 
-Technologies
+# Technologies
 
 Python · NumPy · Pandas · Matplotlib · Scikit-learn
 
-Author
+# Author
 
 Durodola Daniel
