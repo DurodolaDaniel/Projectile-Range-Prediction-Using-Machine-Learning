@@ -94,3 +94,9 @@ Python · NumPy · Pandas · Matplotlib · Scikit-learn
 # Author
 
 Durodola Daniel
+
+<img width="1280" height="664" alt="Random Forest Prediction Landscape" src="https://github.com/user-attachments/assets/1324abe5-a32d-416e-ac41-6f72a7ad7f36" />
+
+<img width="1280" height="664" alt="R2 Comparison of Regression Models" src="https://github.com/user-attachments/assets/d0d6345d-c917-4909-8999-bee63607e428" />
+
+<img width="1280" height="664" alt="Actual vs Predicted" src="https://github.com/user-attachments/assets/e936059a-bb50-4512-af0d-6ff5e2e13ed5" />
